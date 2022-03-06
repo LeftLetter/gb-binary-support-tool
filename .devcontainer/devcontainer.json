@@ -1,0 +1,32 @@
+{
+  "name": "vscode-vue-template",
+  "dockerFile": "Dockerfile",
+  "shutdownAction": "none",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "octref.vetur",
+    "eamodio.gitlens",
+    "mhutchie.git-graph"
+  ],
+  "settings": {
+    "vetur.format.defaultFormatter.js": "none",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[markdown]": {
+      "editor.formatOnSave": false
+    }
+  }
+}
